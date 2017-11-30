@@ -1,0 +1,52 @@
+{
+  "name": "gm-captcha",
+  "description": "captch based on gm module",
+  "version": "1.21.1",
+  "author": {
+    "name": "wavelynn",
+    "email": "cooxacom@163.com"
+  },
+  "keywords": [
+    "graphics",
+    "magick",
+    "image",
+    "graphicsmagick",
+    "imagemagick",
+    "gm",
+    "convert",
+    "identify",
+    "compare"
+  ],
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "bugs": {
+    "url": "http://github.com/wavelynn/gm-captcha/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "main": "./index",
+  "scripts": {
+    "test": "make test-unit; make test;"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wavelynn/gm-captcha.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+  },
+  "dependencies": {
+    "gm": "~1.21.1"
+  },
+  "maintainers": [
+    {
+      "name": "wavelynn",
+      "email": "cooxacom@163.com"
+    }
+  ]
+}
